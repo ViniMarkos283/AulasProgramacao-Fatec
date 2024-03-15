@@ -1,1 +1,2 @@
 - metodos e funçoes são iguais no java, o que muda é q o metodo está amarrado a um objeto
+- para criar um novo arquivo no java, vai em view > command palette > Java create new project
