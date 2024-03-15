@@ -2,8 +2,6 @@
 // RA: 2171392321015
 // Objetivo:
 
-package atividades.src;
-
 public class CalcularVolumeLata {
     
 }

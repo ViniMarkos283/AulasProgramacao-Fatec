@@ -1,13 +1,10 @@
-package atividades.src;
-
 // nome: Marcos Vinicius de Oliveira
 // RA: 2171392321015
 // Objetivo: 3 - Faça um programa na Linguagem Java que receba 2 numeros e apresente a multiplicação dos dois números
 
 import java.util.Scanner;
 
-
-public class somaDeDoisNumeros {
+public class multiDeDoisNumeros {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a, b;
