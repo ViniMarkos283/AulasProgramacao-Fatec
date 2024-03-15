@@ -1,0 +1,1 @@
+- metodos e funçoes são iguais no java, o que muda é q o metodo está amarrado a um objeto
