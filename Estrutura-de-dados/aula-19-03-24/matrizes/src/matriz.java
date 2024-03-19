@@ -39,7 +39,7 @@ public class matriz {
         }
         for (int i = 0; i < m1.length; i++){ // for para exibição da matriz
             for (int j = 0; j < m1[i].length; j++){
-                System.out.printf("m1[%d][%d] = %d\t", i, j, m1[i][j]); // o \t dá um espaço na exibição
+                System.out.printf("m1[%d][%d] = %d\t", i, j, m1[i][j]); // o \t dá um espaço na exibição (dá um TAB)
             }
             System.out.println("");
         }
