@@ -1,4 +1,4 @@
-# Aulas-JAVA-Fatec
+# Aulas-java-Fatec
  Repositório para armazenar os códigos das seguintes disciplinas cursadas na Fatec Diadema:
  - Estrutura de Dados;
  - Técnicas de Programação;
