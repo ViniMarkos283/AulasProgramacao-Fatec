@@ -15,9 +15,9 @@ public class ConversorDeTemperatura2 {
         System.out.println("Digite a temperatura em Fahrenheit: ");
         F = Integer.parseInt(sc.nextLine());
 
-        C = (F - 32) * (5/9);
+        C = (F - 32) * 5/9;
 
-        // terminar em casa...
+        System.out.println("A temperatura convertida em graus Celsius é igual a: " + C);
 
     }
 }
