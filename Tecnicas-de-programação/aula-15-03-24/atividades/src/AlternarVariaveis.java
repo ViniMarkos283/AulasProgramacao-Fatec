@@ -23,7 +23,7 @@ public class AlternarVariaveis {
         C = A;
         A = B;
         B = C;
-        System.out.println("Os novos valores são: A = " + A + " 5B = " + B);
+        System.out.println("Os novos valores são: A = " + A + " B = " + B);
 
         
     }
