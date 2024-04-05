@@ -17,6 +17,36 @@ import java.util.Scanner;
 
 public class CardapioLanchonete {
     public static void main(String[] args) {
-        
-    } // terminar dps...
+        Scanner sc = new Scanner(System.in);
+        int cod, quant;
+        double price = 0.00;
+
+        System.out.println("Digite o código do produto desejado: ");
+        cod = Integer.parseInt(sc.nextLine());
+        System.out.println("Digite a quantidade: ");
+        quant = Integer.parseInt(sc.nextLine());
+
+        switch (cod) {
+            case 100:
+            case 103:
+                price = 1.20;
+                break;
+            case 101:
+            case 104:
+                price = 1.30;
+                break;
+            case 102:
+                price = 1.50;
+                break;
+            case 105:
+                price = 1.00;
+                break;
+
+            default:
+            System.out.println("Valor Inválido!");
+                break;
+        }
+
+        System.out.printf("Preço unitário: R$ %.2f\nQuantidade: %d\nTotal: R$ %.2f", price, quant, price * quant);
+    }
 }
