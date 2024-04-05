@@ -5,6 +5,17 @@
 
 public class SomaDosCem {
     public static void main(String[] args) {
+        System.out.println("Soma dos valores entre 1 e 100:");
+        int i = 0;
+        int j = 0;
+
+        while (i <= 100){
+            System.out.printf("Somando: %d + %d = %d\n", j, i, j + i);
+            j += i;
+            i++;
+        }
+
+        System.out.println("\nSoma total: " + j);
         
     }
 }
