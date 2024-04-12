@@ -6,6 +6,18 @@
 
 public class ColecaoAeB {
     public static void main(String[] args) {
+        int colecaoA[] = new int[10];
+        int colecaoB[] = new int[10];
+
+        for(int i = 0; i < colecaoA.length; i++){
+            colecaoA[i] = i+1;
+            colecaoB[i] = colecaoA[i] * 2;
+        }
+
+        System.out.println("Valores das duas coleçoes: ");
+        for(int i = 0; i < colecaoA.length; i++){
+            System.out.println("Coleção A: "); // terminar em casa...
+        }
         
     }
 }
