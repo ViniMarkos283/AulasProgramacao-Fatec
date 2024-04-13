@@ -1,4 +1,4 @@
-//Nome: Marcos Vinicus de Oliveira
+//Nome: Marcos Vinicius de Oliveira
 //RA: 2171392321015
 // Objetivo: 46. Criar uma coleção na linguagem Java com 10 elementos
 // –	Inserir os elementos de 1 a 10 no vetor	
