@@ -7,6 +7,6 @@
 
 # Organização dos códigos:
 - Os códigos estão separados pela disciplina e pela data no qual a aula ocorreu;
-- O padrão das datas é YYYY/MM/DD (melhor para organizar);
+- O padrão das datas é YY/MM/DD (melhor para organizar);
 - Dentro dos src, estão os arquivos .java onde estão os códigos;
 - posteriormente, dividirei tambem por semestres, caso o JAVA continue sendo usado nos proximos semestres;
