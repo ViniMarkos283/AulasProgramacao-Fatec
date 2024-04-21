@@ -11,12 +11,14 @@ public class LeituraRetangulo {
         Scanner sc = new Scanner(System.in);
         Retangulo ret = new Retangulo();
 
+        System.out.println("Largura: ");
         ret.largura = Double.parseDouble(sc.nextLine());
+        System.out.println("Altura: ");
         ret.altura = Double.parseDouble(sc.nextLine());
 
-        System.out.printf("AREA = ", ret.area(ret.largura, ret.altura));
-        System.out.printf("PERIMETRO = ", ret.perimetro(ret.largura, ret.altura));
-        System.out.printf("DIAGONAL = ", ret.diagonal(ret.largura, ret.altura));
+        System.out.printf("AREA = %.2f\n", ret.area(ret.largura, ret.altura));
+        System.out.printf("PERIMETRO = %.2f\n", ret.perimetro(ret.largura, ret.altura));
+        System.out.printf("DIAGONAL = %.2f", ret.diagonal(ret.largura, ret.altura));
 
         sc.close();
 
