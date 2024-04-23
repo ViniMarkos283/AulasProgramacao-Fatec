@@ -45,10 +45,10 @@ public class App {
                         System.out.println("Elemento removido: " + valor);
                         break;
                     case 5:
-                        System.out.println("Adicionar posição especifica");
+                        System.out.println("Adicionar posição especifica"); // fazer esse
                         break;
                     case 6:
-                        System.out.println("Remover posição especifica");
+                        System.out.println("Remover posição especifica"); // fazer esse
                         break;
                     case 7:
                         System.out.println("Mostrando todos os elementos da lista");
@@ -69,4 +69,5 @@ public class App {
 
         sc.close();
     }
-} // fazer as outras em casa...
+} // fazer as outras em casa... fazer os addposespecifica e remoposespecifica (vao
+  // cair na prova, junto a fila)
