@@ -29,9 +29,9 @@
 
 public class TestaConta {
     public static void main(String[] args) {
-        Conta cc1 = new Conta("Fernando",1234,"nao",1500.00,"Masculino",29);
-        Conta cc2 = new Conta("Maria",5312,"sim",530.31,"Feminino",45);
-        Conta cc3 = new Conta("João",9621,"sim",4325.12,"Masculino",54);
+        Conta cc1 = new Conta("Fernando", 1234, "nao", 1500.00, "Masculino", 29);
+        Conta cc2 = new Conta("Maria", 5312, "sim", 530.31, "Feminino", 45);
+        Conta cc3 = new Conta("João", 9621, "sim", 4325.12, "Masculino", 54);
 
         cc1.saldo();
         cc2.saldo();

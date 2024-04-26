@@ -1,10 +1,7 @@
 public class Conta {
-    private String nomeCorrentista;
-    private int numConta;
-    private String contaConjunta;
+    private String nomeCorrentista, contaConjunta, sexo;
+    private int numConta, idade;
     private double saldo;
-    private String sexo;
-    private int idade;
 
     public Conta(String nomeCorrentista, int numConta, String contaConjunta, double saldo, String sexo,
             int idade) {

@@ -24,9 +24,24 @@
     C. Crie uma classe para testar a classe Aluno
 */
 
-
-public class LeituraAluno {
+public class TestaAluno {
     public static void main(String[] args) {
-        
+        Aluno al1 = new Aluno();
+        Aluno al2 = new Aluno("Robson", "34345343", 10, 7, 8);
+        Aluno al3 = new Aluno("Pedro", "32323232", 5, 2, 6);
+        Aluno al4 = new Aluno("Marcos", "10101010", 10, 10, 0);
+        Aluno al5 = new Aluno("Kauan", "45454545", 4, 2, 5);
+
+        al1.calcularMediaFinal();
+        al2.calcularMediaFinal();
+        al3.calcularMediaFinal();
+        al4.calcularMediaFinal();
+        al5.calcularMediaFinal();
+
+        al1.toString();
+        al2.toString();
+        al3.toString();
+        al4.toString();
+        al5.toString();
     }
 }
