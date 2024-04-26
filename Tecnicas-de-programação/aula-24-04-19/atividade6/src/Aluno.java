@@ -15,8 +15,8 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno [nome=" + nome + ", matricula=" + matricula + ", nota1=" + nota1 + ", nota2=" + nota2
-                + ", notaReavaliacao=" + notaReavaliacao + "]";
+        return "Nome do Aluno = " + nome + ",\nmatricula = " + matricula + ",\nnota1 = " + nota1 + ",\nnota2 = " + nota2
+                + ",\nnotaReavaliacao = " + notaReavaliacao + "\nMédia Final = " + calcularMediaFinal() + "\n";
     }
 
     public double calcularMedia() {

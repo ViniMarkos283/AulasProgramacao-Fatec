@@ -32,16 +32,10 @@ public class TestaAluno {
         Aluno al4 = new Aluno("Marcos", "10101010", 10, 10, 0);
         Aluno al5 = new Aluno("Kauan", "45454545", 4, 2, 5);
 
-        al1.calcularMediaFinal();
-        al2.calcularMediaFinal();
-        al3.calcularMediaFinal();
-        al4.calcularMediaFinal();
-        al5.calcularMediaFinal();
-
-        al1.toString();
-        al2.toString();
-        al3.toString();
-        al4.toString();
-        al5.toString();
+        System.out.println(al1.toString());
+        System.out.println(al2.toString());
+        System.out.println(al3.toString());
+        System.out.println(al4.toString());
+        System.out.println(al5.toString());
     }
 }
