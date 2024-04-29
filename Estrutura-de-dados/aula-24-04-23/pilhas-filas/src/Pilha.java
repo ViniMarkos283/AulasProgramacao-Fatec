@@ -41,5 +41,6 @@ public class Pilha {
         return topo == -1;
     }
 
-} // melhorar o codigo dps adicionando exceções [lição de casa] (vai cair na prova com exceções)
+} 
+// melhorar o codigo dps adicionando exceções [lição de casa] (vai cair na prova com exceções)
 // fazer o fila (com o addfinal();)
