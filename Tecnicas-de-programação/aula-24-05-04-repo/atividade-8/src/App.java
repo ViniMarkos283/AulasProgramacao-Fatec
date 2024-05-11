@@ -8,9 +8,22 @@
 // é 60% da nota). Você deve criar uma classe Aluno para resolver este
 // problema.
 
+
+// esta é a classe App
+
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Aluno aluno = new Aluno();
+
+        aluno.recebeNome(sc.nextLine());
+        aluno.recebeNota1(sc.nextDouble());
+        aluno.recebeNota2(sc.nextDouble());
+        aluno.recebeNota3(sc.nextDouble());
         
+        aluno.retornaValores();
     }
     
 }
