@@ -14,5 +14,7 @@ public class Main {
             System.out.println(e.getMessage()); // mostra a mensagem de erro
         }
         System.out.println("Elementos da lista: " + l1.toString());
+        l1.adicionaFinal(50);
+        System.out.println("Elementos da lista: " + l1.toString());
     }
-} // terminar dps
+}
