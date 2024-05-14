@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Elementos da lista: " + l1.toString());
         l1.adicionaInicio(85);
         System.out.println("Elementos da lista: " + l1.toString());
-        
+
         try { // try catch
             System.out.println("Elemento removido: " + l1.removeInicio()); // remove se for possivel
         } catch (Exception e) { // se não der, gera a exception e
@@ -15,6 +15,13 @@ public class Main {
         }
         System.out.println("Elementos da lista: " + l1.toString());
         l1.adicionaFinal(50);
+        System.out.println("Elementos da lista: " + l1.toString());
+
+        try {
+            System.out.println("Elemento removido: " + l1.removeFinal()); // remove se for possivel
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
         System.out.println("Elementos da lista: " + l1.toString());
     }
 }

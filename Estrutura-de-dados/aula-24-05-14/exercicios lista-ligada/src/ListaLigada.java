@@ -41,11 +41,11 @@ public class ListaLigada { // cria-se um objeto Nó chamado inicio
                 No aux = inicio;
                 while (aux.prox.prox != null) {
                     aux = aux.prox;
+                    aux.prox = null;
                 }
                 r = aux.prox.dado;
-                aux.prox = null;
             }
-            return r;
+            return r; // com problema, precisa arrumar
         }
     }
 
