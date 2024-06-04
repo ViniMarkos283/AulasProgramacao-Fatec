@@ -7,9 +7,12 @@ public class App {
         a.adicionaElemento(10);
         a.adicionaElemento(4);
         a.adicionaElemento(12);
+        a.adicionaElemento(10);
         a.adicionaElemento(1);
         a.adicionaElemento(13);
         a.adicionaElemento(11);
+        a.adicionaElemento(12);
+        a.adicionaElemento(12);
         a.adicionaElemento(7);
 
         System.out.println("\nProfundidade");

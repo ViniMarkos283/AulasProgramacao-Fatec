@@ -1,30 +1,32 @@
-public class Arvore {
-	private NoArvore raiz;
+// desafio da aula: contar as duplicatas da arvore, ex: 10 10 10 = 10/3
 
-	public Arvore() {
+public class Arvore {
+	private NoArvore raiz; 									// nó raiz
+
+	public Arvore() { 										// construtor da arvore, com sua raiz iniciando nula
 		raiz = null;
 	}
 
 	public void adicionaElemento(int e) {
-		NoArvore novo = new NoArvore(e);
-		if (raiz == null)
-			raiz = novo;
-		else {
-			NoArvore aux1 = raiz, aux2 = raiz;
-			while (aux1 != null && aux1.elemento != e) {
-				aux2 = aux1;
-				if (e < aux1.elemento)
-					aux1 = aux1.esquerda;
-				else if (e > aux1.elemento)
-					aux1 = aux1.direita;
+		NoArvore novo = new NoArvore(e); 					// instancia de um novo nó
+		if (raiz == null) 									// se a raiz inicia nula...
+			raiz = novo; 									// raiz recebe o valor de novo, cujo seu valor foi atribuido na criação do nó, este valor é recebido pelo parametro
+		else { 												// senao...
+			NoArvore aux1 = raiz, aux2 = raiz; 				// tanto o aux1 quanto o aux2 vao receber o valor da raiz
+			while (aux1 != null && aux1.elemento != e) { 	// enquanto aux1 não for nulo e diferente de E...
+				aux2 = aux1; 								// aux2 recebe o aux1
+				if (e < aux1.elemento) 						// se o E for menor q o elemento aux1
+					aux1 = aux1.esquerda; 					// manda ele pro aux1 da esquerda
+				else if (e > aux1.elemento) 
+					aux1 = aux1.direita; 					// senao, manda ele pra direita
 			}
-			if (aux1 != null && e == aux2.elemento)
-				System.out.println("Elemento já existe");
+			if (aux1 != null && e == aux2.elemento) 		// se o aux1 for diferente de null, e o E igual ao elemento aux2...
+				aux1.qtd++; 								// alteração da msg de elemento repetido por incremento da qtd dele
 			else {
-				if (e < aux2.elemento)
-					aux2.esquerda = novo;
+				if (e < aux2.elemento) 						// se o E for menor que o aux2
+					aux2.esquerda = novo; 					// aux2 da esquerda recebe o valor de novo
 				if (e > aux2.elemento)
-					aux2.direita = novo;
+					aux2.direita = novo; 					// senão, o da direita que recebe
 				System.out.println("Elemento Incluído " + novo.elemento);
 			}
 		}
@@ -87,18 +89,22 @@ public class Arvore {
 		return node;
 	}
 
-	public void profundidade(NoArvore n) {
+	public void profundidade(NoArvore n) { // pré ordem
 		if (n != null) {
+			for(int i =1; i <= n.qtd; i++){
 			System.out.print(" " + n.elemento);
+		}
 			profundidade(n.esquerda);
 			profundidade(n.direita);
 		}
 	}
 
-	public void ordemSimetrica(NoArvore n) {
+	public void ordemSimetrica(NoArvore n) { // em Ordem
 		if (n != null) {
 			ordemSimetrica(n.esquerda);
-			System.out.print(" " + n.elemento);
+			for(int i =1; i <= n.qtd; i++){
+				System.out.print(" " + n.elemento);
+			}			
 			ordemSimetrica(n.direita);
 		}
 	}
@@ -107,7 +113,9 @@ public class Arvore {
 		if (n != null) {
 			posOrdem(n.esquerda);
 			posOrdem(n.direita);
-			System.out.print(" " + n.elemento);
+			for(int i =1; i <= n.qtd; i++){
+				System.out.print(" " + n.elemento);
+			}		
 		}
 	}
 
