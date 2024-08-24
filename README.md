@@ -2,11 +2,13 @@
  Repositório para armazenar os códigos das disciplinas cursadas na Fatec Diadema, no curso de Desenvolvimento de Software Multiplataforma (DSM).
 
 # linguagens usadas
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,python,js&theme=light)](https://skillicons.dev)
-- Java;
-- Kotlin;
-- Python;
-- JavaScript.
+[![My Skills](https://skillicons.dev/icons?i=java,kotlin,python,html,css,js&theme=light&perline=3)](https://skillicons.dev)
+- Java
+- Kotlin
+- Python
+- Html
+- CSS
+- JavaScript
 
 # IDEs utlizadas:
 [![My Skills](https://skillicons.dev/icons?i=vscode,idea)](https://skillicons.dev)
