@@ -8,14 +8,24 @@ Utilize os conceitos de funções em Kotlin
 */
 
 fun main(){
+    var choose = 0
     val menu = "Escolha uma opção: \n
     1 - Calcular fatorial \n
     2 - Calcular quadrado de um valor \n
     3 - Calcular volume de uma lata \n
     4 - Sair"
     
+    do{
+    println(menu)
+    choose = readLine().toString().toInt()
     
-    
+    when(choose){
+        1 -> 
+        2 ->
+        3 ->
+        else -> println("Opção inválida")
+    }
+        
+    }while(choose != 4)
+    println("Encerrando...")
 }
-
-
