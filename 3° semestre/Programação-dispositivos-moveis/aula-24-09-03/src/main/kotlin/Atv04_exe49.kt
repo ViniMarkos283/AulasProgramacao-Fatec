@@ -5,4 +5,13 @@
 Obs. Não efetuar a leitura de 10 elementos
  */
 
-fun main(){}
+fun main(){
+    var numeros = Array(10, {0})
+    
+    for(x in 1..10){
+        numeros[x-1] = x
+    }
+    
+    println(numeros.joinToString(", "))
+}
+
