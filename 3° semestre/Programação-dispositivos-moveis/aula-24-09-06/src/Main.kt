@@ -8,12 +8,17 @@ Use a classe projetada abaixo:
 fun main(){
     val func = Funcionario()
 
-    println("nome: ")
+    print("nome: ")
     func.nome = readLine().toString()
-    println("Salario Bruto: ")
-    func.salarioBruto = readLine().toString()
-    println("nome: ")
-    func.desconto = readLine().toString()
+    print("Salario Bruto: ")
+    func.salarioBruto = readLine().toString().toDouble()
+    print("Desconto: ")
+    func.desconto = readLine().toString().toDouble()
 
     println("Dados do funcionário: ${func.nome}, R$${func.salarioLiquido()}")
+
+    print("Deseja aumentar o salário em qual porcentagem?")
+    var porcent = readLine().toString().toDouble()
+
+    println("Dados do funcionário: ${func.nome}, R$${func.aumentarSalario(porcent)}")
 }
