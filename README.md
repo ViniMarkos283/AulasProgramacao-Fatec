@@ -19,3 +19,6 @@
 - As disciplinas estão separadas pelo semestre onde elas ocorreram durante o periodo letivo;
 - Os códigos estão separados pela disciplina e pela data no qual a aula ocorreu;
 - O padrão das datas é YY/MM/DD (melhor para organizar);
+
+# obesrvações adicionais:
+- alguns scripts podem depender dos node_modules para funcionarem, portanto quando utilizar um deles, verifique se há essa necessidade
