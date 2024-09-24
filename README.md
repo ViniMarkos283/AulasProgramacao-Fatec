@@ -11,9 +11,10 @@
 - JavaScript
 
 # IDEs utlizadas:
-[![My Skills](https://skillicons.dev/icons?i=vscode,idea)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,idea,androidstudio)](https://skillicons.dev)
 - Visual Studio Code
 - Intellij
+- Android Studio
 
 # Organização dos códigos:
 - As disciplinas estão separadas pelo semestre onde elas ocorreram durante o periodo letivo;
