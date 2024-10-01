@@ -22,4 +22,5 @@
 - O padrão das datas é YY/MM/DD (melhor para organizar);
 
 # observações adicionais:
-- alguns scripts podem depender dos node_modules para funcionarem, portanto quando utilizar um deles, verifique se há essa necessidade
+- alguns scripts podem depender dos node_modules para funcionarem, portanto quando utilizar um deles, verifique se há essa necessidade.
+- existe agora um caminho chamado "Another Projects" e nele eu coloco scripts que eu faço estando fora do horário de aula, não existe ordem nele, diferente dos caminhos "#° semestres"
