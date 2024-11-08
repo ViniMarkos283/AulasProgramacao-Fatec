@@ -1,11 +1,9 @@
-# ATIVIDADE – REVISÃO PARA PROVA
+# ATIVIDADE – REVISÃO PARA PROVA (Pendente)
 #### 1. Explique o Padrão Decorator. Defina o padrão Decorator e descreva um caso prático onde seria útil aplicá-lo.
-É um padrão estrutural que permite que possamos adicionar funcionalidades ao codigo sem mudar sua estrutura.
+    É um padrão estrutural que permite que possamos adicionar funcionalidades ao codigo sem mudar sua estrutura.
 
 #### 2. Implemente uma Classe Decorator. Crie uma classe NotificadorBasico que envia uma notificação simples por e-mail e depois use um decorator NotificadorSMS que adiciona a notificação por SMS.
 ```javascript
-console.log('Olá, Mundo!');
-
 class NotificadorBasico {
  enviar(mensagem) {
  console.log(`Enviando e-mail: ${mensagem}`);
@@ -23,15 +21,22 @@ class NotificadorSMS {
 const notificador = new NotificadorSMS(new NotificadorBasico());
 notificador.enviar("Olá, você tem uma nova mensagem!");
 
-//Resposta:
+// Resposta:
 
 ```
 
 #### 3. No exercício anterior, crie um Decorador Adicional. Adicione um NotificadorFacebook que envia notificações via Facebook. O cliente deve conseguir combinar SMS, e-mail e Facebook.
 
+```javascript
+// Resposta:
+
+```
+
 #### 4. Qual a vantagem do padrão Decorator sobre a herança? Explique como o Decorator promove a composição sobre herança.
+    O decorator permite incrementar o codigo sem modifica-lo, na herança é preciso unir as superclasses com suas subclasses, com o decorator não é preciso ter subclasses, basta criar novos comportamentos para ele e manter a classe intacta.
 
 #### 5. Discuta a flexibilidade do Decorator. como o Decorator permite adicionar comportamentos sem alterar as classes originais?
+    O decorator é flexivel pois permite adição de novos comportamentos sem precisar parar o sistema.
 
 #### 6. Descreva o Padrão Facade, explique como o padrão Facade ajuda a reduzir a complexidade ao interagir com um sistema.
 
@@ -62,7 +67,7 @@ class LojaOnline {
 const loja = new LojaOnline();
 loja.realizarCompra();
 
-//Resposta:
+// Resposta:
 
 ```
 
@@ -104,7 +109,7 @@ const factory = new CarroFactory();
 const carro1 = factory.obterCarro("SUV", "Azul");
 carro1.exibir("ABC1234");
 
-//Resposta:
+// Resposta:
 
 ```
 
@@ -116,7 +121,7 @@ carro1.exibir("ABC1234");
 
 #### 16. Descreva o Padrão Proxy. Qual o propósito do padrão Proxy e em quais cenários ele é ideal?
 
-#### 17. Implemente uma Classe Proxy.Crie um BancoProxy que restringe o acesso ao saldo de um Banco.
+#### 17. Implemente uma Classe Proxy. Crie um BancoProxy que restringe o acesso ao saldo de um Banco.
 
 ```javascript
 class Banco {
@@ -145,7 +150,7 @@ const banco = new Banco(1000);
 const proxy = new BancoProxy(banco, false);
 proxy.getSaldo();
 
-//Resposta:
+// Resposta:
 
 ```
 
@@ -193,7 +198,7 @@ const avancado = new SuporteAvancado();
 basico.setProximo(avancado);
 basico.tratar(2); // Suporte Avançado resolve a solicitação.
 
-//Resposta:
+// Resposta:
 
 ```
 
