@@ -1,8 +1,8 @@
 # ATIVIDADE – REVISÃO PARA PROVA
 #### 1. Explique o Padrão Decorator. Defina o padrão Decorator e descreva um caso prático onde seria útil aplicá-lo.
+É um padrão estrutural que permite que possamos adicionar funcionalidades ao codigo sem mudar sua estrutura.
 
 #### 2. Implemente uma Classe Decorator. Crie uma classe NotificadorBasico que envia uma notificação simples por e-mail e depois use um decorator NotificadorSMS que adiciona a notificação por SMS.
-
 ```javascript
 console.log('Olá, Mundo!');
 
@@ -22,6 +22,9 @@ class NotificadorSMS {
 }
 const notificador = new NotificadorSMS(new NotificadorBasico());
 notificador.enviar("Olá, você tem uma nova mensagem!");
+
+//Resposta:
+
 ```
 
 #### 3. No exercício anterior, crie um Decorador Adicional. Adicione um NotificadorFacebook que envia notificações via Facebook. O cliente deve conseguir combinar SMS, e-mail e Facebook.
@@ -58,6 +61,9 @@ class LojaOnline {
 }
 const loja = new LojaOnline();
 loja.realizarCompra();
+
+//Resposta:
+
 ```
 
 #### 8. Qual a vantagem de uma fachada em sistemas complexos? Discuta como o padrão facilita a manutenção de grandes sistemas.
@@ -97,6 +103,9 @@ class CarroFactory {
 const factory = new CarroFactory();
 const carro1 = factory.obterCarro("SUV", "Azul");
 carro1.exibir("ABC1234");
+
+//Resposta:
+
 ```
 
 #### 13. Diferencie Estado Intrínseco e Extrínseco. Qual é a importância de separar esses estados no Flyweight?
@@ -135,6 +144,9 @@ class BancoProxy {
 const banco = new Banco(1000);
 const proxy = new BancoProxy(banco, false);
 proxy.getSaldo();
+
+//Resposta:
+
 ```
 
 #### 18. Compare Proxy e Decorator. Em que situação o Proxy difere do Decorator?
@@ -180,6 +192,9 @@ const basico = new SuporteBasico();
 const avancado = new SuporteAvancado();
 basico.setProximo(avancado);
 basico.tratar(2); // Suporte Avançado resolve a solicitação.
+
+//Resposta:
+
 ```
 
 #### 23. Extensibilidade no Chain of Responsibility. Como é possível adicionar novos níveis na cadeia sem modificar as classes existentes?
