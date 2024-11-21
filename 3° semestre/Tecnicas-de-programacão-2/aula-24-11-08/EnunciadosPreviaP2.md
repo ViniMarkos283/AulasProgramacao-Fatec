@@ -39,6 +39,8 @@ notificador.enviar("Olá, você tem uma nova mensagem!");
     O decorator é flexivel pois permite adição de novos comportamentos sem precisar parar o sistema.
 
 #### 6. Descreva o Padrão Facade, explique como o padrão Facade ajuda a reduzir a complexidade ao interagir com um sistema.
+    O facade é um padrão que permite fornecer uma interface simples em um conjunto complexo de classes, subsistemas e bibliotecas.
+    O uso de uma fachada permite que o sistema esconda sua parte complexa e traz uma interação mais simples do usuario com o sistema.
 
 #### 7. Implemente uma Classe Facade: Crie uma fachada LojaOnline que simplifica a interação com subsistemas de pagamento, envio e notificação.
 
@@ -72,12 +74,62 @@ loja.realizarCompra();
 ```
 
 #### 8. Qual a vantagem de uma fachada em sistemas complexos? Discuta como o padrão facilita a manutenção de grandes sistemas.
+        O uso de uma fachada faz com que reduzamos o acoplamento de clientes e subsistemas.
 
 #### 9. Analise a abstração da fachada. Por que é importante esconder a complexidade interna de um sistema?
+        Esconder a parte complexa faz com que usemos somente 1 interface, assim os clientes não precisam visualizar o processo ocorrendo no sistema, tornando seu uso mais facil.
 
 #### 10. Extensão da Fachada. Como você poderia estender a LojaOnline para incluir verificação de estoque antes de realizar a compra?
+        É preciso criar um serviço que atenda essa exigencia, como um verificarEstoque()
+
+    exemplo do chatgpt:
+```javascript
+// Classe Estoque (verifica o estoque disponível)
+class Estoque {
+    constructor() {
+        this.produtos = {
+            'produto1': 10,  // 10 unidades de produto1
+            'produto2': 5,   // 5 unidades de produto2
+        };
+    }
+
+// verifica a disponibilidade do estoque
+    verificarEstoque(produto, quantidade) {
+        if (this.produtos[produto] >= quantidade) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
+// Classe LojaOnline (fachada para a compra)
+class LojaOnline {
+    constructor() {
+        this.estoque = new Estoque(); // Instância do estoque
+    }
+
+// realiza a compra caso haja estoque do produto exigido
+    realizarCompra(produto, quantidade) {
+        if (this.estoque.verificarEstoque(produto, quantidade)) {
+            console.log(`Compra realizada para ${quantidade} unidade(s) de ${produto}.`);
+        } else {
+            console.log(`Estoque insuficiente para o produto: ${produto}.`);
+        }
+    }
+}
+
+// Teste da LojaOnline com verificação de estoque
+const loja = new LojaOnline();
+loja.realizarCompra('produto1', 3); // Estoque suficiente
+loja.realizarCompra('produto2', 6); // Estoque insuficiente
+```
 
 #### 11. Explique o Padrão Flyweight. Descreva o padrão Flyweight e em quais situações ele é útil.
+        O flyweight é um padrão focado na redução de uso de memoria, ele otimiza processos e o uso de objetos que estão em grande quantidade e que possuam caracterisitcas similares. 
+        Ele divide o objeto em 2 tipos, sendo o intrinseco e o extrinseco. 
+        Ele é util em processos onde existe um grande numeros de objetos em uso, como por exemplo em jogos.
+
 
 #### 12. Implementação Flyweight. Crie uma classe Carro com um estado intrínseco de modelo e cor e um estado extrínseco placa.
 
@@ -114,10 +166,14 @@ carro1.exibir("ABC1234");
 ```
 
 #### 13. Diferencie Estado Intrínseco e Extrínseco. Qual é a importância de separar esses estados no Flyweight?
+        O estado Intrinseco possui dados a serem compartilhados entre os objetos.
+        O estado extrinseco possui dados que serão usado somente em um objeto.
 
 #### 14. Desafios de Implementação. Quais são os possíveis desafios ao implementar o padrão Flyweight?
+    
 
 #### 15. Quando não usar Flyweight. Em quais casos o uso do padrão Flyweight pode ser prejudicial?
+    Não é indicado usa-lo em sistemas com poucos objetos, com caracteristicas muito distintas e em sistemas que não apresentam problemas de desempenho e gasto de memoria excessivo.
 
 #### 16. Descreva o Padrão Proxy. Qual o propósito do padrão Proxy e em quais cenários ele é ideal?
 
