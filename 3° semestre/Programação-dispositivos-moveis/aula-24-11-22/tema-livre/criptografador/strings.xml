@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Descriptografador</string>
+
+    <string-array name="encryption_types">
+        <item>Base64</item>
+        <item>Cifra de César</item>
+        <item>Morse</item>
+        <item>Zenit Polar</item>
+        <item>Teclado Numérico</item>
+    </string-array>
+</resources>
+
