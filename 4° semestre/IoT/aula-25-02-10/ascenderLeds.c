@@ -12,5 +12,5 @@ void loop() // como funciona (em repetição)
   digitalWrite(ledPin, HIGH); // ascende o led
   delay(1000); // mantem aceso por 1 segundo
   digitalWrite(ledPin, LOW); // apaga o led
-  delay(1000); 
+  delay(1000); // mantem apagado por 1 segundo
 }
