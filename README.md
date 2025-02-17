@@ -16,7 +16,7 @@
 - Visual Studio Code
 - Intellij
 - Android Studio
-- tinkercad (web)
+- Tinkercad (web)
 
 # Organização dos códigos:
 - As disciplinas estão separadas pelo semestre onde elas ocorreram durante o periodo letivo;
