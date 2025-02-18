@@ -1,5 +1,5 @@
 // Arduino: semaforo
-// C code
+// C++ code
 
 int ledDelay = 1000; // espera entre as alterações
 int redPin = 10;
@@ -15,17 +15,17 @@ void setup()
 
 void loop() {
 digitalWrite(redPin, HIGH); // acende a luz vermelha
-delay(ledDelay); // espera 5 segundos
+delay(ledDelay); 
   
 digitalWrite(bluePin, LOW); // acende a luz amarela
 digitalWrite(greenPin, HIGH); // acende a luz verde
-delay(2000); // espera 2 segundos
+delay(500); 
   
 digitalWrite(bluePin, LOW); // acende a luz amarela
 digitalWrite(redPin, LOW);
 digitalWrite(greenPin, HIGH); // apaga a luz verde
-delay(2000); // espera 2 segundos 
+delay(1000);
   
-digitalWrite(bluePin, LOW); // apaga a luz amarela
+digitalWrite(greenPin, LOW);
 // agora nosso loop se repete
 }
