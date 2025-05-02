@@ -1,7 +1,7 @@
 #include <LiquidCrystal.h>
 
 // Configuração dos pinos do LCD
-const int rs = 12, en = 11, d4 = 7, d5 = 6, d6 = 5, d7 = 4;
+const int rs = 12, en = 11, d4 = 4, d5 = 5, d6 = 6, d7 = 7;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 // Variáveis para o cronômetro
