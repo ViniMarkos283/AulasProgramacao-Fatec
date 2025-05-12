@@ -32,8 +32,11 @@
                 - arquivo.xyz
 
 ## observações adicionais:
-#### alguns scripts podem depender dos node_modules para funcionarem, portanto quando utilizar um deles, verifique se há essa necessidade. Para instalar os node_modules, utilize:
+#### Alguns scripts podem depender dos node_modules para funcionarem, portanto quando utilizar um deles, verifique se há essa necessidade. Para instalar os node_modules, utilize:
 
         npm install
 
 #### existe agora um caminho chamado "Another Projects" e nele eu coloco scripts que eu faço estando fora do horário de aula, não existe ordem nele, diferente dos caminhos "#° semestres"
+
+## Interfatecs
+#### Foi adicionado uma nova pasta relacionada ao Interfatecs, que ocorre 2 vezes ao ano. Nele colocarei somente as maratonas das quais participei, junto as questões enviadas (aceitas, recusadas e não terminadas), as folhas de prova e suas resoluções feitas no pós maratona.
