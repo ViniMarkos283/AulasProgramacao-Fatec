@@ -1,5 +1,7 @@
 # Aulas de programação Fatec
 #### Repositório para armazenar os códigos das disciplinas cursadas na Fatec Diadema, no curso de Desenvolvimento de Software Multiplataforma (DSM).
+#### Este repósitório também serve como ponto de consulta para outros estudantes do mesmo curso.
+#### este repositorio não guarda as aulas relacionadas a Banco de dados, para consultar as aulas de Banco de dados, utilize esse outro repositório: https://github.com/ViniMarkos283/AulasBancoDeDados-Fatec
 
 ## linguagens usadas
 [![My Skills](https://skillicons.dev/icons?i=java,kotlin,python,html,css,js,cpp&theme=light&perline=4)](https://skillicons.dev)
