@@ -1,8 +1,6 @@
 # Formulário: Form05 LDW - Desenvolvimento Web  
 **Tema:** Monolítico / Microsserviços / SOLID
 
-Olá, **MARCOS**. Quando você enviar este formulário, o proprietário verá seu nome e endereço de email.
-
 ---
 
 ### 1. Durante as aulas foi discutido as fragilidades relacionadas à arquitetura monolítica.  

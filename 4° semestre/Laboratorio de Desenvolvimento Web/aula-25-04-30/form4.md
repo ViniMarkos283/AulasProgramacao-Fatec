@@ -1,6 +1,6 @@
 # Form04 - LDW: Desenvolvimento de App Web
 
-**Pontuação: 11/14**
+**Pontuação: 11/14** falta colocar as corretas
 
 ---
 
