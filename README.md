@@ -38,7 +38,7 @@
 
         npm install
 
-#### existe agora um caminho chamado "Another Projects" e nele eu coloco scripts que eu faço estando fora do horário de aula, não existe ordem nele, diferente dos caminhos "#° semestres"
+#### existe agora um caminho chamado "Testes a parte" e nele eu coloco scripts que eu faço de forma paralela ao conteúdo da aula, diferente dos semestres, nele não existe ordem por data.
 
 ## Interfatecs
 #### Foi adicionado uma nova pasta relacionada ao Interfatecs, que ocorre 2 vezes ao ano. Nele colocarei somente as maratonas das quais participei, junto as questões enviadas (aceitas, recusadas e não terminadas), as folhas de prova e suas resoluções feitas no pós maratona.
