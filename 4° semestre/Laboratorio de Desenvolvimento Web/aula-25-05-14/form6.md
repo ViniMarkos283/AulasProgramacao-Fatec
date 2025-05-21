@@ -124,4 +124,3 @@
 
 ---
 
-_Este formulário foi gerado com base no estudo de caso do curso LDW._
