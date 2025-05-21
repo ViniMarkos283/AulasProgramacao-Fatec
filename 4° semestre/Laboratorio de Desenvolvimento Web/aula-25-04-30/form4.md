@@ -1,7 +1,5 @@
 # Form04 - LDW: Desenvolvimento de App Web
 
-**Pontuação: 11/14** falta colocar as corretas
-
 ---
 
 ### 1. No contexto de modelos de processo de desenvolvimento de software, qual é a principal vantagem do modelo interativo incremental em relação ao modelo em cascata, especialmente em cenários de negócios que atuam em um ambiente globalizado?
@@ -15,19 +13,19 @@
 
 ### 2. MVC (Model-View-Controller) é um padrão de arquitetura de software. Nessa arquitetura, o controller é responsável por
 
-- [ ] controlar os erros de visualização de processamento
-- [ ] executar uma solicitação de entrada.
-- [ ] ler e escrever os dados.
-- [ ] validar os dados de controle.
+- [x] Controlar o fluxo de dados entre a Model e a View.
+- [ ] Executar uma solicitação de entrada.
+- [ ] Ler e escrever os dados.
+- [ ] Validar os dados de controle.
 
 ---
 
 ### 3. Em uma aplicação de votação online desenvolvida em três camadas do tipo MVC, o controller é responsável por
 
-- [x] transformar eventos gerados pela view em ações de negócio, alterando o model.
-- [ ] transformar eventos gerados pela view em ações temporárias de negócio
-- [ ] manipular a tela com dados de negócio que podem ser alterados diretamente com o banco de dados.
-- [ ] alterar a view do sistema que contém a lógica do negócio.
+- [x] Transformar eventos gerados pela view em ações de negócio, alterando o model.
+- [ ] Transformar eventos gerados pela view em ações temporárias de negócio
+- [ ] Manipular a tela com dados de negócio que podem ser alterados diretamente com o banco de dados.
+- [ ] Alterar a view do sistema que contém a lógica do negócio.
 
 ---
 
@@ -78,19 +76,19 @@
 
 ### 9. Qual o papel do projeto de arquitetura no processo de desenvolvimento de software?
 
-- [ ] especifica como o acesso ao banco de dados será configurado.
-- [ ] define como os requisitos serão implementados no cronograma diminuindo os riscos de atraso na entrega.
-- [x] ajuda a explicar como o sistema pode ser particionado em componentes, reduzindo, assim, a complexidade para seu entendimento
-- [ ] permite planejar a alocação de recursos de acordo com as necessidades de programação identificadas no projeto.
+- [ ] Especifica como o acesso ao banco de dados será configurado.
+- [ ] Define como os requisitos serão implementados no cronograma diminuindo os riscos de atraso na entrega.
+- [x] Ajuda a explicar como o sistema pode ser particionado em componentes, reduzindo, assim, a complexidade para seu entendimento
+- [ ] Permite planejar a alocação de recursos de acordo com as necessidades de programação identificadas no projeto.
 
 ---
 
 ### 10. Comportamento esperado ao definir um endpoint REST com Spring MVC:
 
-- [ ] aceita os dados no formato texto no corpo da requisição, que é essencial em conjunto com @PostMapping para garantir que os dados sejam desserializados corretamente para um objeto Java
-- [ ] recebe um objeto Java no corpo da mensagem que é desserializado para um objto JSon com objetivo de atender ao comportamento da logica definida de criação do usuário.
-- [x] recebe um objeto Json que é desserializado para um objeto java com objetivo de atender ao comportamento da logica definida de criação do usuário.
-- [ ] a anotação @ResponseBody identifica em tempo de execução o tipo de dados enviado no corpo da mensagem para processar o comportamento esperado na criação de usuário.
+- [ ] Aceita os dados no formato texto no corpo da requisição, que é essencial em conjunto com @PostMapping para garantir que os dados sejam desserializados corretamente para um objeto Java
+- [ ] Recebe um objeto Java no corpo da mensagem que é desserializado para um objto JSon com objetivo de atender ao comportamento da logica definida de criação do usuário.
+- [x] Recebe um objeto Json que é desserializado para um objeto java com objetivo de atender ao comportamento da logica definida de criação do usuário.
+- [ ] A anotação @ResponseBody identifica em tempo de execução o tipo de dados enviado no corpo da mensagem para processar o comportamento esperado na criação de usuário.
 
 ---
 
@@ -107,7 +105,7 @@
 
 - [ ] Ela permite que as classes concretas (EmailService, SMSService) controlem o comportamento de NotificacaoService.
 - [x] Ela estabelece um contrato que as classes de alto nível cliente de email e sms devem seguir, dependendo de uma abstração.
-- [x] Ela elimina a necessidade de instanciar classes concretas dentro de NotificacaoService, simplificando a lógica interna.
+- [ ] Ela elimina a necessidade de instanciar classes concretas dentro de NotificacaoService, simplificando a lógica interna.
 - [ ] Ela melhora a performance da aplicação ao reduzir a criação de múltiplos objetos.
 
 ---
@@ -127,3 +125,5 @@
 - [ ] Garante que todas as classes sigam um padrão de nomenclatura consistente.
 - [ ] Reduz a necessidade de escrever documentação detalhada, pois o código se torna autoexplicativo.
 - [x] Permite que diferentes equipes trabalhem em módulos independentes sem se preocuparem com os detalhes de implementação uns dos outros.
+
+ ---
