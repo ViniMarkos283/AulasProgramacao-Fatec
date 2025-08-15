@@ -7,7 +7,7 @@
 [![My Skills](https://skillicons.dev/icons?i=java,kotlin,python,html,css,js,cpp&theme=light&perline=4)](https://skillicons.dev)
 - Java
 - Kotlin
-- Python
+- Python (script / Notebook)
 - Html
 - CSS
 - JavaScript
@@ -19,6 +19,7 @@
 - [Intellij](https://www.jetbrains.com/pt-br/idea/)
 - [Android Studio](https://developer.android.com/studio?gad_source=1&gclid=EAIaIQobChMIoICGg8uqjAMV4lVIAB33thqkEAAYASAAEgL0PvD_BwE&gclsrc=aw.ds&hl=pt-br)
 - [Tinkercad (web)](https://www.tinkercad.com/)
+- [Colab (web)](https://colab.google/)
 
 ## Organização dos códigos:
 #### As disciplinas estão separadas pelo semestre onde elas ocorreram durante o periodo letivo;
