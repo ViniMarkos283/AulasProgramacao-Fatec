@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Numeros Sortidos</string>
+    <string name="string">Clique em sortear para iniciar</string>
+    <string name="appResultado">- - - - - -</string>
+</resources>
