@@ -1,0 +1,15 @@
+historia,divida,garantias,renda,risco
+ruim,alta,nenhuma,<=5000,alto
+nada consta,alta,nenhuma,>5000<=10000,alto
+nada consta,baixa,nenhuma,>5000<=10000,moderado
+nada consta,baixa,nenhuma,>10000,alto
+nada consta,baixa,nenhuma,>10000,baixo
+nada consta,baixa,adequada,>10000,baixo
+ruim,baixa,nenhuma,<=5000,alto
+ruim,baixa,adequada,>10000,moderado
+boa,baixa,nenhuma,>10000,baixo
+boa,alta,adequada,>10000,baixo
+boa,alta,nenhuma,<=5000,alto
+boa,alta,nenhuma,>5000<=10000,moderado
+boa,alta,nenhuma,>10000,baixo
+ruim,alta,nenhuma,>5000<=10000,alto

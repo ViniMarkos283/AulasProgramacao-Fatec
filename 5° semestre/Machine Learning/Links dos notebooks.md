@@ -47,19 +47,19 @@
 
 ## Links dos notebooks
 ### [Felicidade](https://colab.research.google.com/drive/1sbweFzjHWFr0k5aoVJCQLP-LDA6yEgIj?usp=sharing)
-#### Descrição do notebook
+#### Um dataset sobre qualidade de vida e hábitos alimentares. Ele relaciona o grau de felicidade de uma pessoa com a idade, tipo de alimentação (vegetariana, vegana, onívora) e expectativa de vida. Pode ser usado para análises correlacionais ou regressões sobre o impacto dos hábitos alimentares na felicidade e longevidade.
 ### [Housing price](https://colab.research.google.com/drive/1Mtgn5ZlidT1enyNT9ru8Rms-BFo7ugUR?usp=sharing)
-#### Descrição do notebook
+#### Conjunto de dados de preço de imóveis, comum em projetos de regressão. Cada linha representa uma casa com informações sobre área, número de quartos, banheiros, andares, vaga de garagem e outras características (ex: tem ar-condicionado, está mobiliada). Usado para prever o preço de uma casa com base nessas variáveis.
 ### [Iris 1](https://colab.research.google.com/drive/1GXav-eblvIXgaVaHBFKPzNlkvMHLFpEt?usp=sharing)
-#### Descrição do notebook
+#### É o clássico dataset de classificação de flores Iris, usado em aprendizado de máquina. Ele contém medidas do comprimento e largura das sépalas e pétalas de três espécies de flores (Iris setosa, Iris versicolor e Iris virginica). O objetivo típico é prever a espécie da flor com base nessas medidas.
 ### [Prepara Felicidade](https://colab.research.google.com/drive/1EP9L0tGT-KU9xBrl-HlSn2iEvGuTX_3i?usp=sharing)
-#### Descrição do notebook
+#### Uso de regressão linear na mesma base de dados Felicidade.
 ### [Iris 2](https://colab.research.google.com/drive/14q1UKGsYOx33OJAFM0OnrkkgGGADoIKK?usp=sharing)
-#### Descrição do notebook
+#### Uso de Random Forest na base de dados Iris.
 ### [P1 explicada](https://colab.research.google.com/drive/1k_4MkUoQo1K5whNnYNKjeT0FdrWglJT1?usp=sharing)
-#### Descrição do notebook
+#### Um conjunto de dados sobre eventos espaciais — provavelmente alertas de possível colisão entre satélites. Contém informações sobre satélites envolvidos, distância mínima prevista (MIN_RNG), probabilidade de colisão (PC) e datas de criação e previsão do evento (TCA). Esse tipo de dado é usado em monitoramento de tráfego espacial e previsão de riscos orbitais.
 ### [Arvore de decisão - risco Credito](https://colab.research.google.com/drive/1YgKXWSi-UQ6pjC5X-4tdTPb6rqAWdMA8)
-#### Descrição do notebook
+#### É um pequeno dataset usado para análise de risco de crédito. Cada linha representa um perfil de cliente com histórico financeiro, nível de dívida, presença de garantias, faixa de renda e o nível de risco (alto, moderado, baixo). Costuma ser usado para treinar modelos de decisão (ex: árvore de decisão) que classificam o risco de inadimplência de um cliente.
 
 ## Base de dados
 #### As bases de dados utilizados em aula estão no diretório `/dados` e são obrigatórios para o funcionamento dos códigos dos notebooks, para utiliza-los, adicione na raiz de seu drive a pasta "dados" e faça o upload dos arquivos dentro da mesma.
