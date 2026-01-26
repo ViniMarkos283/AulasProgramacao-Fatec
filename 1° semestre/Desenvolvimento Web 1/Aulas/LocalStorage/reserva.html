@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabs.css">
+    <script src="bd.js"></script>
+    <script src="cookies.js"></script>
+    <title>Agencia</title>
+</head>
+<body onload="reservado()">
+
+    <form class="table">
+        <h1>Confirmação de Reserva</h1>      
+    
+    <div class="txtInsert">
+        <div><div class="fonte">Nome do passageiro:</div><p id="rusers"></p></div>
+        <div><div class="fonte">E-mail:</div><p id="remail"></p></div>
+        <div><div class="fonte">Origem Viagem:</div><p id="rorigem"></p></div>
+        <div><div class="fonte">Destino Viagem:</div><p id="rdestino"></p></div>
+        <div><div class="fonte">Data marcada:</div><p id="rstartdate"></p></div>
+        <div><div class="fonte">Data Retorno:</div><p id="renddate"></p></div>    
+    </div>
+</form>
+</p>
+
+<button type="submit" onclick="voltaForm()">Voltar</button>
+<button type="submit" onclick="apagaCookies()">Apagar Reserva</button>
+<button type="submit" onclick="logaout()">Sair</button>
+
+
+
+</body>
+</html>

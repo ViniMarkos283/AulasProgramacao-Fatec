@@ -1,0 +1,35 @@
+.center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.posX {
+    flex-direction: column;
+}
+
+.posY {
+    flex-direction: row;
+}
+
+.center div {
+    padding: 0.5%;
+    width: 30%;
+}
+
+.center div input {
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+}
+
+.option{
+    margin: 0.75%;
+    padding: 1%;
+}
+
+.option:hover{
+    background-color: lightgrey;
+    border-color: transparent;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="crud.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário com o CRUD</title>
+</head>
+
+<body>
+
+    <form>
+        <div class="center posX">
+            <div>
+                <input type="text" id="id" placeholder="Digite seu ID">
+            </div>
+            <div>
+                <input type="text" id="login" placeholder="Digite seu nome de usuário">
+            </div>
+            <div>
+                <input type="password" id="senha" placeholder="Digite sua Senha">
+            </div>
+            <div>
+                <input type="text" id="nome" placeholder="Digite seu Nome">
+            </div>
+            <div>
+                <input type="text" id="email" placeholder="Digite seu E-mail">
+            </div>
+        </div>
+    </form>
+
+    <div class="center posY">
+        <button class="option" onclick="adicionar()">Adicionar</button>
+        <button class="option" onclick="localizar()">Localizar</button>
+        <button class="option" onclick="alterar()">Alterar</button>
+        <button class="option" onclick="apagar()">Apagar</button>
+    </div>
+
+</body>
+
+</html>

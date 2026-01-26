@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bd.js"></script>
+    <title>CRUD</title>
+</head>
+
+<!-- o onload executa a função no momento q a pág é recarregada -->
+
+<body onload="local()">
+
+    <input type="text" id="id" placeholder="id" disabled>
+    <input type="text" id="login" placeholder="login">
+    <input type="text" id="senha" placeholder="senha">
+
+    <button type="submit" onclick="adicionar()">Gravar</button>
+    <button type="submit" onclick="buscar()">Buscar</button>
+    <button type="submit" onclick="limpar()">limpar</button>
+    <!-- to be continued... -->
+</body>
+
+</html>

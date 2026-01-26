@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+header {
+    background-color: black;
+    padding: 25px;
+    transition: 1s;
+}
+
+.leo{
+    background-color: blue;
+    transition: 1s;
+}
+.raf{
+    background-color: red;
+    transition: 1s;
+}
+.don{
+    background-color: purple;
+    transition: 1s;
+}
+.mic{
+    background-color: orangered;
+    transition: 1s;
+}
+
+.bk{
+    background-color: black;
+}
+
+section {
+    height: 80vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.column {
+    background-color: white;
+    padding: 50px;
+    border-radius: 18px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+}
+
+.side h4 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.textInput {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.action {
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+
+}
+
+.results {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+}
+
+span{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ok{
+    color: green;
+}
+
+.notOk{
+    color: red;
+}

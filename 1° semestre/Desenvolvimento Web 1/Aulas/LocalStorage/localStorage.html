@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="bd.js"></script>
+    <title>Testa CRUD</title>
+</head>
+<body onload="tabela()">
+
+    
+    <form class="store">       
+         
+        <div class="txtInsert">
+                   <button class="limpar" type="submit" onclick="limpar()">Limpar</button> 
+                     
+                   <p class="id"><input class="cod" type="text" id="id" placeholder="id">                                               
+                   <input  type="text" id="login" placeholder="login">
+                   <input type="password" id="senha" placeholder="senha">
+                   <button type="submit" onclick="logon()">Logar</button></p>      
+                       
+        </div>  
+
+        <button type="submit" onclick="local()">addtudo</button>
+        <button type="submit" onclick="adicionar()">addUser</button>
+        <button type="button" onclick="buscar()">Buscar</button>
+        <button type="submit" onclick="atualizar()">Atualizar</button>
+        <button type="submit" onclick="apagarItemVetor()">RemoveUser</button>        
+        <button type="submit" onclick="apagaTudo()">ApagaRegistro</button>
+        
+    </form>
+</body>
+</html>
+
